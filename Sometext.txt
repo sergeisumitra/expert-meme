@@ -1,0 +1,55 @@
+016-07-08T15:33:21.0484591Z ##[debug]Loading .NET assembly:	Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.dll
+ 
+2016-07-08T15:33:21.0484591Z ##[debug]Loading .NET assembly:	Microsoft.TeamFoundation.WorkItemTracking.Common.dll
+ 
+2016-07-08T15:33:21.0484591Z ##[debug]Loading .NET assembly:	Microsoft.TeamFoundation.WorkItemTracking.Proxy.dll
+ 
+2016-07-08T15:33:21.0484591Z ##[debug]Loading .NET assembly:	Microsoft.TeamFoundation.WorkItemTracking.WebApi.dll
+ 
+2016-07-08T15:33:21.0484591Z ##[debug]Loading .NET assembly:	Microsoft.VisualStudio.Services.Client.dll
+ 
+2016-07-08T15:33:21.0484591Z ##[debug]Loading .NET assembly:	Microsoft.VisualStudio.Services.CodeReview.Common.dll
+ 
+2016-07-08T15:33:21.0484591Z ##[debug]Loading .NET assembly:	Microsoft.VisualStudio.Services.CodeReview.Discussion.WebApi.dll
+ 
+2016-07-08T15:33:21.0484591Z ##[debug]Loading .NET assembly:	Microsoft.VisualStudio.Services.CodeReview.WebApi.dll
+ 
+2016-07-08T15:33:21.0484591Z ##[debug]Loading .NET assembly:	Microsoft.VisualStudio.Services.Common.dll
+ 
+2016-07-08T15:33:21.0484591Z ##[debug]Loading .NET assembly:	Microsoft.VisualStudio.Services.WebApi.dll
+ 
+2016-07-08T15:33:21.0484591Z ##[debug]Loading .NET assembly:	Newtonsoft.Json.dll
+ 
+2016-07-08T15:33:21.0484591Z ##[debug]Loading .NET assembly:	System.Net.Http.Formatting.dll
+ 
+2016-07-08T15:33:21.0484591Z ##[debug]Loading .NET assembly:	Microsoft.TeamFoundation.DistributedTask.Task.DevTestLabs.dll
+ 
+2016-07-08T15:33:21.0484591Z ##[debug]Loading .NET assembly:	Microsoft.VisualStudio.Services.DevTestLabs.Client.dll
+ 
+2016-07-08T15:33:21.0484591Z ##[debug]Loading .NET assembly:	Microsoft.VisualStudio.Services.DevTestLabs.Common.dll
+ 
+2016-07-08T15:33:21.0484591Z ##[debug]Loading .NET assembly:	Microsoft.VisualStudio.Services.DevTestLabs.Definition.dll
+ 
+2016-07-08T15:33:21.0484591Z ##[debug]Loading .NET assembly:	Microsoft.VisualStudio.Services.DevTestLabs.Deployment.dll
+ 
+2016-07-08T15:33:21.0640952Z ##[debug]Initiating deployment on ah_test.etechdc.local
+ 
+2016-07-08T15:37:06.3807264Z ##[debug]Finished Deployment operation on ah_test.etechdc.local:5986
+ 
+2016-07-08T15:37:06.4119764Z ##[debug]Deployment logs for Deployment operation on ah_test.etechdc.local:5986 
+ 
+2016-07-08T15:37:06.4276020Z ##[debug]Failed to establish remote power shell session to the deployment machine ah_test.etechdc.local on the port:5986 due to unexpected exception. Error Message:
+ 
+2016-07-08T15:37:06.4276020Z System.Management.Automation.Remoting.PSRemotingTransportException: Connecting to remote server ah_test.etechdc.local failed with the following error message : WinRM cannot complete the operation. Verify that the specified computer name is valid, that the computer is accessible over the network, and that a firewall exception for the WinRM service is enabled and allows access from this computer. By default, the WinRM firewall exception for public profiles limits access to remote computers within the same local subnet. For more information, see the about_Remote_Troubleshooting Help topic.
+ 
+2016-07-08T15:37:06.4276020Z    at System.Management.Automation.Runspaces.AsyncResult.EndInvoke()
+ 
+2016-07-08T15:37:06.4276020Z    at System.Management.Automation.RemoteRunspace.Open()
+ 
+2016-07-08T15:37:06.4276020Z    at Microsoft.VisualStudio.Services.DevTestLabs.Deployment.Deployment.PowershellExecutor.GetOpenedRunspace()
+ 
+2016-07-08T15:37:06.4276020Z    at Microsoft.VisualStudio.Services.DevTestLabs.Deployment.Deployment.PowershellExecutor.EstablishRemoteSession()System.Management.Automation.Remoting.PSRemotingTransportException: Connecting to remote server ah_test.etechdc.local failed with the following error message : WinRM cannot complete the operation. Verify that the specified computer name is valid, that the computer is accessible over the network, and that a firewall exception for the WinRM service is enabled and allows access from this computer. By default, the WinRM firewall exception for public profiles limits access to remote computers within the same local subnet. For more information, see the about_Remote_Troubleshooting Help topic.
+ 
+2016-07-08T15:37:06.4276020Z    at System.Management.Automation.Runspaces.AsyncResult.EndInvoke()
+ 
+2016-07-08T15:37:06.4276020Z    at System.Management.Automation.RemoteRunspace.Op
